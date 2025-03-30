@@ -1,0 +1,193 @@
+@media screen and (max-width:431px) {
+
+    .hero-section .left-section,
+    .hero-section .left-section p {
+        width: 100%;
+    }
+
+    .container {
+        max-width: 382px;
+    }
+
+    .hero-section .left-section .content-section {
+        margin-bottom: 44px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    header {
+        margin-bottom: 44px;
+    }
+
+    .hero-section .left-section .content-section h1 {
+        margin-bottom: 16px;
+    }
+
+    .hero-section .left-section .content-section p {
+        font-size: 20px;
+    }
+
+    .hero-section .right-section .blue-card {
+        width: 100%;
+    }
+
+    .bottom-section {
+        justify-content: center;
+    }
+
+    .grey-card {
+        flex-direction: column;
+        width: 185px;
+        height: 238px;
+        padding: 21px 0px 0px 26px;
+    }
+
+    .grey-card .image-container {
+        height: 110px;
+        align-self: end;
+    }
+
+    .grey-card .image-container img {
+        height: 100%;
+    }
+
+    .orange-card {
+        width: 173px;
+        height: 238px;
+        flex-direction: column;
+    }
+
+    .orange-card .numbers .styling {
+        font-weight: 800;
+    }
+
+    button.primary-btn.getin-btn {
+        margin-bottom: 44px;
+    }
+
+    hr.responsive {
+        display: block;
+    }
+
+    .our-process-inner {
+        flex-direction: column-reverse;
+    }
+
+    .hero-section {
+        margin-bottom: 140px;
+    }
+
+    .process-left-section .image-container img {
+        width: 100%;
+        height: 361px;
+    }
+
+    .our-process-inner {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 55px;
+    }
+
+    .heading-section {
+        text-align: center;
+    }
+
+    .swiper-button-prev.testimonial-prev,
+    .blog-prev,
+    .swiper-button-next.testimonial-next,
+    .blog-next {
+        display: none;
+    }
+
+    .heading-two {
+        font-size: 24px;
+    }
+
+    .testimonial-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .swiper.testimonial_slider {
+        padding-bottom: 50px;
+    }
+
+    .swiper.testimonial_slider .swiper-pagination-bullet {
+        background: var(--line-stroke-color);
+    }
+
+    .swiper.testimonial_slider .swiper-pagination-bullet-active {
+        background-color: var(--primary-color);
+    }
+
+    .testimonial-section,
+    .blog-section,
+    .hiring-section {
+        margin-bottom: 160px;
+    }
+
+    .blog-card {
+        width: 100%;
+    }
+
+    .blogSwiper .swiper-wrapper {
+        margin-bottom: 90px;
+    }
+
+    .listing-card-content {
+        padding: 24px 32px;
+    }
+
+    .listing-section ul {
+        margin-bottom: 32px;
+    }
+
+    footer {
+        height: 1243px;
+        padding: 38px 24px;
+    }
+
+    footer .form-container {
+        position: unset;
+        width: 100%;
+        border-radius: 12px;
+        padding: 24px;
+    }
+
+    footer address {
+        bottom: 32px;
+    }
+
+    .footer-inner-section {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        position: absolute;
+        bottom: 164px;
+        margin-bottom: 0px;
+    }
+
+    .navbar-toggler-icon {
+        background-size: 0px;
+    }
+
+    span.navbar-toggler-icon:after {
+        content: "";
+        color: white;
+        background-image: url(/images/hamburger.png);
+        width: 19px;
+        height: 17px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        background-size: 17px;
+    }
+}
+
+@media screen and (min-width:991.92px) {
+    nav {
+        height: 84px;
+    }
+}
